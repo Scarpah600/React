@@ -51,8 +51,10 @@ export default class Contador extends Component {
                 <h3>{this.state.numero}</h3>
                 <div>
                     <label htmlFor="passoInput">Passo:</label>
-                    <input id="passoInput" type="number" 
-                    value={this.state.passo} onChange={this.setPasso}/>
+                    <input id="passoInput" 
+                    type="number" 
+                    value={this.state.passo}
+                    onChange={this.setPasso}/>
                 </div>
              <button onClick={this.inc}>+</button>
              <button onClick={this.dec}>-</button>
