@@ -1,0 +1,17 @@
+.listaProd th {
+    background-color:darkblue;
+    color: #fff;
+}
+.listaProd table{
+    width: 100%;
+}
+.listaProd tr {
+    background-color: darkgoldenrod;
+    width: 100% !important;
+}
+.listaProd .Par {
+    background-color: #ddd;
+}
+.listaProd .Impar {
+    background-color: #ccc;
+}
