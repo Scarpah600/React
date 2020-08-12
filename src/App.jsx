@@ -1,5 +1,6 @@
 
 
+import Contador from './components/contador/Contador'
 import Input from './components/formulario/Input'
 import React from 'react'
 import Primeiro from './components/basicos/Primeiro'
@@ -21,13 +22,18 @@ export default (_) => (
         <h1> Fundamentos React</h1>
         <div className="Cards">
 
+            <Card titulo="Contador" color="#424242">
+                   <Contador numeroInicial={10}></Contador>
+            </Card>
+
             <Card titulo="Componente Controlado" color="#E45F56">
-                   <input></input>
+                   <Input></Input>
             </Card>
 
             <Card titulo="Comunicação Indireta" color="#8BAD39">
                    <IndiretaPai></IndiretaPai>
             </Card>
+           
             
              <Card titulo="Comunicação Direta" color="#59323C">
                    <DiretaPai></DiretaPai>

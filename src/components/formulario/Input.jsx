@@ -1,9 +1,9 @@
-import React, {useState} from 'react'
+import React, {useState} from "react";
 import './Input.css'
 
-export default props =>{
+export default (props) =>{
 
-    const [valor,setValor] = useState('Inicial')
+    const [valor,setValor] = useState("Inicial");
 
     function quandoMudar(e){
         setValor(e.target.value)   
@@ -22,5 +22,5 @@ export default props =>{
             <input value={undefined}/>
            </div>
         </div>
-    )
+    );
 }
