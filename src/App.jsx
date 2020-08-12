@@ -1,4 +1,6 @@
 
+
+import Input from './components/formulario/Input'
 import React from 'react'
 import Primeiro from './components/basicos/Primeiro'
 import ComParametro from './components/basicos/ComParametro'
@@ -18,6 +20,10 @@ export default (_) => (
     <div className="App">
         <h1> Fundamentos React</h1>
         <div className="Cards">
+
+            <Card titulo="Componente Controlado" color="#E45F56">
+                   <input></input>
+            </Card>
 
             <Card titulo="Comunicação Indireta" color="#8BAD39">
                    <IndiretaPai></IndiretaPai>
